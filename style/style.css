@@ -1,0 +1,30 @@
+body {
+	padding-top: 70px;
+}
+
+.jumbotron {
+	background: #Ecf0f1;
+}
+
+/*--A fixed implemented that prevents image thumbnails of different sizes to interact differently.
+comment it out and you'll see what I mean! */
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+p, h1 {
+	text-align: center;
+}
+
+
+/*******************************NAV BAR STYLING ************************************/
+.navbar-inverse {
+	background: #212B39;
+}
+
+/*--Changes the color of the <a> tags and brand in the navbar to white--*/
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+	color: white;
+}
+
